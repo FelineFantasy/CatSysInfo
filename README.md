@@ -1,4 +1,4 @@
-# CatSysInfo 🐱📊 v1.1.0
+# CatSysInfo 🐱📊 v1.2.0
 
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -33,15 +33,18 @@ CatSysInfo collects and displays key system parameters without external APIs. Ju
 pip install -r requirements.txt
 
 ### Or clone and run
+```
 git clone https://github.com/FelineFantasy/CatSysInfo.git
 cd CatSysInfo
 pip install -r requirements.txt
 python catsysinfo.py
+```
 
 ## Configuration
 
 On first run, sysinfo_config.json is created automatically. You can customize:
 
+```
 {
     "box_width": 35,
     "show_uptime": true,
@@ -51,11 +54,13 @@ On first run, sysinfo_config.json is created automatically. You can customize:
     "show_disk": true,
     "show_free": true
 }
+```
 
 Set any field to false to hide it from the output.
 
 ## Example Output
 
+```
 ╭───────────────────────────────────╮
 │ kitty@catpc                       │
 ├───────────────────────────────────┤
@@ -67,14 +72,17 @@ Set any field to false to hide it from the output.
 │ Disk: 128.5/512.0GB (25%)         │
 │ Free: 383.5GB                     │
 ╰───────────────────────────────────╯
+```
 
 ## Project Structure
 
+```
 CatSysInfo/
 ├── catsysinfo.py          # Main script
 ├── sysinfo_config.json    # Configuration (auto-created)
 ├── requirements.txt       # Dependencies
 └── README.md              # Documentation
+```
 
 ## Requirements
 
