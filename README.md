@@ -108,8 +108,6 @@ CatSysInfo/
 - Basic system info output
 - Windows and Linux support
 
-## Author
-
-FelineFantasy
-
-License: MIT
+## 👤 Author
+- **FelineFantasy**
+- **License**: MIT
