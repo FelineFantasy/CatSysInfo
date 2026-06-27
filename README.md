@@ -1,4 +1,4 @@
-# CatSysInfo 🐱📊 v1.2.0
+# CatSysInfo 🐱📊 v1.3.0
 
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -30,7 +30,9 @@ CatSysInfo collects and displays key system parameters without external APIs. Ju
 - colorama
 
 ### Install dependencies
+```
 pip install -r requirements.txt
+```
 
 ### Or clone and run
 ```
@@ -92,6 +94,11 @@ CatSysInfo/
 - Platform: Windows / Linux
 
 ## Changelog
+
+### v1.3.0 (28.06.2026)
+- Improved code structure
+- Updated README formatting
+- Minor bug fixes
 
 ### v1.2.0 (24.05.2026)
 - Added JSON configuration file
