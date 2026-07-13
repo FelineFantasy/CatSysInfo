@@ -1,4 +1,4 @@
-# CatSysInfo 🐱📊 v1.3.0
+# CatSysInfo 🐱📊 v1.4.0
 
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -94,6 +94,9 @@ CatSysInfo/
 - Platform: Windows / Linux
 
 ## Changelog
+
+### v1.4.0 (13.07.2026)
+- **Refactor**: replace `platform.system() == "Windows"` with `os.name == "nt"` for more reliable OS detection
 
 ### v1.3.0 (28.06.2026)
 - Improved code structure
