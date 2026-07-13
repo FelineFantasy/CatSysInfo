@@ -63,10 +63,10 @@ def main():
     total, used, free = shutil.disk_usage(path)
     percent_disk = (used / total) * 100
 
-    if platform.system() == "Windows":
+    if os.name == "nt":  # Windows
         shell = os.path.basename(os.environ.get('COMSPEC', 'cmd.exe'))
         uptime_seconds = ctypes.windll.kernel32.GetTickCount64() / 1000
-    else:
+    else:  # Linux/macOS/Unix
         shell = os.path.basename(os.environ.get('SHELL', '/bin/sh'))
         with open('/proc/uptime', 'r') as f:
             uptime_seconds = float(f.readline().split()[0])
