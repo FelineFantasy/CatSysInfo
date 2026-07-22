@@ -1,4 +1,4 @@
-# CatSysInfo 🐱📊 v1.4.0
+# CatSysInfo 🐱📊
 
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -92,31 +92,6 @@ CatSysInfo/
 - psutil (RAM)
 - colorama (colored output)
 - Platform: Windows / Linux
-
-## Changelog
-
-### v1.4.0 (13.07.2026)
-- **Refactor**: replace `platform.system() == "Windows"` with `os.name == "nt"` for more reliable OS detection
-
-### v1.3.0 (28.06.2026)
-- Improved code structure
-- Updated README formatting
-- Minor bug fixes
-
-### v1.2.0 (24.05.2026)
-- Added JSON configuration file
-- Added colored output (pink & cyan)
-- Refactored code to PEP8 style
-- Added docstrings and comments
-
-### v1.1.0 (24.05.2026)
-- Purple borders added
-- Blue headers have been added
-
-### v1.0.0 (24.05.2026)
-- Initial release
-- Basic system info output
-- Windows and Linux support
 
 ## 👤 Author
 - **FelineFantasy**
