@@ -80,10 +80,12 @@ Set any field to false to hide it from the output.
 
 ```
 CatSysInfo/
-├── catsysinfo.py          # Main script
-├── sysinfo_config.json    # Configuration (auto-created)
-├── requirements.txt       # Dependencies
-└── README.md              # Documentation
+├── .github/
+│   └── FUNDING.yml           # Support link for DonationAlerts
+├── catsysinfo.py             # Main script
+├── sysinfo_config.json       # Configuration (auto-created)
+├── requirements.txt          # Dependencies
+└── README.md                 # Documentation
 ```
 
 ## Requirements
