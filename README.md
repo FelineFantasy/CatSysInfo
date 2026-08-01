@@ -85,6 +85,7 @@ CatSysInfo/
 ├── catsysinfo.py             # Main script
 ├── sysinfo_config.json       # Configuration (auto-created)
 ├── requirements.txt          # Dependencies
+├── .gitignore                # Git ignore rules
 └── README.md                 # Documentation
 ```
 
