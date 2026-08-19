@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ### Or clone and run
 ```
-git clone https://github.com/FelineFantasy/CatSysInfo.git
+git clone https://github.com/FelineFantasy/CatSysInfo
 cd CatSysInfo
 pip install -r requirements.txt
 python catsysinfo.py
