@@ -96,6 +96,19 @@ CatSysInfo/
 - colorama (colored output)
 - Platform: Windows / Linux
 
+## 💖 Support the Project
+
+If you enjoy **CatSysInfo** and want to help keep the project alive, you can support me here:
+
+[![DonationAlerts](https://img.shields.io/badge/DonationAlerts-Support-blue.svg)](https://www.donationalerts.com/r/felinefantasy)
+
+Your support helps me:
+- 🐱 Keep developing useful utilities
+- 🛠️ Fix bugs and improve features
+- ☕ Stay awake while coding at 4 AM
+
+Every little bit is appreciated! ❤️
+
 ## 👤 Author
 - **FelineFantasy**
 - **License**: MIT
