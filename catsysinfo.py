@@ -65,6 +65,9 @@ def main():
     total, used, free = shutil.disk_usage(path)
     percent_disk = (used / total) * 100
 
+    shell = "unknown"
+    uptime_seconds = 0
+
     if os.name == "nt":  # Windows
         ctypes.windll.kernel32.GetTickCount64.restype = ctypes.c_ulonglong
         uptime_seconds = ctypes.windll.kernel32.GetTickCount64() / 1000
