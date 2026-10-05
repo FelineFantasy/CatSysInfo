@@ -66,7 +66,7 @@ def main():
     percent_disk = (used / total) * 100
 
     if os.name == "nt":  # Windows
-        shell = os.path.basename(os.environ.get('COMSPEC', 'cmd.exe'))
+        ctypes.windll.kernel32.GetTickCount64.restype = ctypes.c_ulonglong
         uptime_seconds = ctypes.windll.kernel32.GetTickCount64() / 1000
     else:  # Linux/macOS/Unix
         shell = os.path.basename(os.environ.get('SHELL', '/bin/sh'))
